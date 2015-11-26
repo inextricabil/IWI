@@ -34,7 +34,7 @@
 					<th>Total</td>
 					<td><strong>29</strong></td>
 					<td><strong>20</strong></td>
-					<td><strong>5</strong><td>
+					<td><strong>5</strong></td>
 				</tr>
 			</tbody>
 		</table>
@@ -78,7 +78,7 @@
 					<th>Total</td>
 					<td><strong>31</strong></td>
 					<td><strong>32</strong></td>
-					<td><strong>32</strong><td>
+					<td><strong>32</strong></td>
 				</tr>
 			</tbody>
 		</table>
@@ -122,7 +122,7 @@
 					<th>Total</td>
 					<td><strong>38</strong></td>
 					<td><strong>36</strong></td>
-					<td><strong>26</strong><td>
+					<td><strong>26</strong></td>
 				</tr>
 			</tbody>
 		</table>
