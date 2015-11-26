@@ -1,0 +1,134 @@
+.btn:focus {
+  outline: none !important;
+}
+button.btn-clear, button.btn-clear:hover, button.btn-clear:focus {
+	border: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	background: none;
+}
+.panelNavGroup{
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* body */
+body{
+    padding-top: 53px;
+}
+
+/* navbar */
+nav.navbar{
+    background-color: white;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 3px solid #F14545;
+}
+/* main image */
+.mainImage{
+	text-align: center;
+    border-bottom: 3px solid #F14545;
+}
+.mainImage img{
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: 400px;
+}
+
+/* item heading */
+.itemTitle{
+}
+	.itemTitle h1{
+		
+	}
+	.itemTitle .headingIcons{
+		text-align: right;
+		font-size: 36px;
+		line-height: 1.1;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+		.itemTitle .headingIcons .btn{
+			background: none;
+		}
+		
+		
+/* owl carousel */
+
+.carouselContainer{
+    border-bottom: 3px solid #F14545;
+}
+.owl-item{
+    height: 400px !important;
+    line-height: 400px;
+}
+
+/* list most recent */
+
+.listItemBlock .thumbnail{
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	.listItemBlock .thumbnail img{
+		max-height: 100%;
+	}
+	.listItemBlock .thumbnail h3{
+		position: absolute;
+		bottom: 35px;
+		padding-left: 8px;
+		font-size: 22px;
+		color: white;
+		text-shadow: 2px 2px 2px black;
+	}
+	
+/* Create Form */
+.createContainer{
+	margin-top: 28px;
+}
+.createType{
+	padding-left: 20px;
+}
+	.createType label{
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.createType input[type="radio"]:not(:checked)~*{
+		opacity: 0.2;
+	}
+.selectionButtons{
+	text-align: right;
+}
+	.selectionEdit{
+		color:#337ab7;
+	}.selectionDelete{
+		color:#d9534f;
+	}
+.createSelectionBlock:not(:first-child){
+    border-top: 1px solid #ddd;
+}
+
+/* MEDIAS */	
+@media (max-width: 767px) {
+	.owl-item {
+		height: 280px !important;
+		line-height: 280px;
+	}
+
+	.listItemBlock .thumbnail{
+		height: auto;
+		min-height: 66px;
+	}
+	.listItemBlock .thumbnail h3{
+		font-size: 16px;
+		bottom: 16px;
+	}
+}
+
+
+

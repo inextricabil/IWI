@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta property="og:image" content="http://students.info.uaic.ro/~alexandru.boicu/cliwTest/pizza.jpg" />
+	<meta property="og:title" content="Pizza Family" />
+	<meta property="og:image" content="http://students.info.uaic.ro/~alexandru.boicu/cliwTest/pizza.jpg" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="lib/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	<!-- Awsome fonts -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="lib/owl-carousel/owl.carousel.css">
+	<!-- Custom Style -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed
+		  " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">IWI Store</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="index.html">Explore</a></li>
+			<li><a href="item.html">Item</a></li>
+			<li><a href="create.html">Create</a></li>
+			<li><a href="about.html">About</a></li>
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="#">LogIn</a></li>
+				<li><a href="#">Register</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">Lost password</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="container-fluid carouselContainer">
+		<div class="owl-carousel">
+			<div> 
+				<img style="width: 100%;" src="uploads/m6-sedan-red-side.png" /> 
+			</div>
+			<div> 
+				<img style="width: 100%;" src="uploads/2761.png" /> 
+			</div>
+			<div> 
+				<img style="width: 100%;" src="uploads/m6-sedan-red-side.png" /> 
+			</div>
+			<div> 
+				<img style="width: 100%;" src="uploads/2761.png" /> 
+			</div>
+			<div> 
+				<img style="width: 100%;" src="uploads/m6-sedan-red-side.png" /> 
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row itemTitle">
+			<h1 class="col-xs-12">Most Recent</h1>
+		</div>
+		<div class="row itemDescription">
+			<div class="col-sm-6 col-md-4 listItemBlock">
+				<div class="thumbnail">
+				  <img src="http://placehold.it/350x150">
+				  <h3>M6 Sedan</h3>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 listItemBlock">
+				<div class="thumbnail">
+				  <img src="http://placehold.it/350x150">
+				  <h3>M6 Sedan</h3>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 listItemBlock">
+				<div class="thumbnail">
+				  <img src="http://placehold.it/350x150">
+				  <h3>M6 Sedan</h3>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 listItemBlock">
+				<div class="thumbnail">
+				  <img src="http://placehold.it/350x150">
+				  <h3>M6 Sedan</h3>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 listItemBlock">
+				<div class="thumbnail">
+				  <img src="http://placehold.it/350x150">
+				  <h3>M6 Sedan</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- JQuery -->
+	<script src="lib/jquery-1.11.3.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+	<!-- owl carousel -->
+	<script src="lib/owl-carousel/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+				var owl =  $(".owl-carousel").owlCarousel({
+					autoPlay: 3000, //Set AutoPlay to 3 seconds
+				 
+					  items : 4,
+					  itemsDesktop : [1199,3],
+					  itemsDesktopSmall : [979,3]
+				  });
+			$(window).resize(function(){
+				//owl.data('owlCarousel').reinit();
+			});
+		});
+	</script>
+</body>
+</html>
