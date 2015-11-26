@@ -1,3 +1,4 @@
+<html>
 	<div class="container">
 		<h1>QOC</h1></br>	
 		<h2>Reviews & Specification</h2>
@@ -168,3 +169,4 @@
 			</div>
 		</div>		
 	</div>
+</html>
