@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
-<head>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width, user-scalable=no">
-	<meta property="og:image" content="http://students.info.uaic.ro/~alexandru.boicu/cliwTest/pizza.jpg" />
-	<meta property="og:title" content="Pizza Family" />
-	<meta property="og:image" content="http://students.info.uaic.ro/~alexandru.boicu/cliwTest/pizza.jpg" />
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="lib/bootstrap-3.3.6-dist/css/bootstrap.min.css">
-	<!-- Awsome fonts -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<!-- owl carousel -->
-	<link rel="stylesheet" href="lib/owl-carousel/owl.carousel.css">
-	<!-- Custom Style -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-<head>
-<body>
 	<div class="container">
 		<h1>QOC</h1></br>	
 		<h2>Reviews & Specification</h2>
@@ -186,10 +168,3 @@
 			</div>
 		</div>		
 	</div>
-
-	<!-- JQuery -->
-	<script src="lib/jquery-1.11.3.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-</body>
-</html>
